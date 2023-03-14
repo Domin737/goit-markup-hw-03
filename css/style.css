@@ -335,8 +335,6 @@ body {
 .portfolio-projects .project-figure {
   flex-basis: calc((100% - 60px) / 3);
   margin: 0;
-  box-sizing: border-box;
-  border: 1px solid var(--border-color-2);
 }
 
 .portfolio-projects .project-figure .img-item {
@@ -345,7 +343,8 @@ body {
 }
 
 .portfolio-projects .project-figure .figcaption-container {
-  margin: 20px 24px;
+  border: 1px solid var(--border-color-2);
+  padding: 20px 24px;
 }
 
 .portfolio-projects .project-figure .figcaption-container .header-text {
