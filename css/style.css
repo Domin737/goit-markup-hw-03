@@ -45,7 +45,6 @@ body {
   line-height: 31px;
   color: var(--header-color);
   text-decoration: none;
-  padding: 32px 0;
 }
 
 .header .nav .logo-web {
@@ -62,6 +61,7 @@ body {
   gap: 46px;
   margin: 0;
   align-items: center;
+  padding: 32px 0;
 }
 
 .header .nav .links .link {
